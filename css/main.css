@@ -1047,20 +1047,25 @@ figcaption {
 	display: block;
 }
 
-figure [attribute="width:650px"] {
+/*figure [attribute="width:650px"] {
 	display: block;
 	max-width: 1000px;
-}
+}*/
 
 /*figure > img.news-image-scale {
 	display: block;
 	max-width: 1000px;
 }*/
 
-/*figure.news-image-scale img, img.news-image-scale {
-	min-width: 100%;
+figure.news-image-scale {
+	max-width: 1000px;
 	display: block;
-}*/
+}
+
+figure.news-image-scale figcaption {
+	display: inline-block;
+	max-width: 1000px;
+}
 
 #modulepositions .moduletable {
 	border-top: 1px solid #e0e0e0;
