@@ -1047,10 +1047,15 @@ figcaption {
 	display: block;
 }
 
-figure > img.news-image-scale {
+figure [attribute="width:650px"] {
 	display: block;
 	max-width: 1000px;
 }
+
+/*figure > img.news-image-scale {
+	display: block;
+	max-width: 1000px;
+}*/
 
 /*figure.news-image-scale img, img.news-image-scale {
 	min-width: 100%;
