@@ -1047,7 +1047,7 @@ figcaption {
 	display: block;
 }
 
-figure.news-image-scale img, img.news-scale-image {
+figure.news-image-scale img, img.news-image-scale {
 	min-width: 100%;
 	display: block;
 }
