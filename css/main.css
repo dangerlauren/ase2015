@@ -1002,10 +1002,7 @@ figcaption {
 	caption-side: bottom;
 }
 
-figure.news-image-scale img, img.news-scale-image {
-	min-width: 100%;
-	display: block;
-}
+
 
 .float-left {
 	float: left;
@@ -1046,6 +1043,11 @@ figure.news-image-scale img, img.news-scale-image {
 }
 
 .news-image-scale {
+	min-width: 100%;
+	display: block;
+}
+
+figure.news-image-scale img, img.news-scale-image {
 	min-width: 100%;
 	display: block;
 }
