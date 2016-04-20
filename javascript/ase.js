@@ -115,6 +115,13 @@
 		  $(this).removeClass("showme");
 		});
 	});
+	
+	$(function() {
+		$(".switch a").click(function(event) { 
+			event.preventDefault(); 
+			$($(this).attr("href")).slideToggle();
+		});
+	});
 
 	$(function() {
 		// Find all videos
