@@ -1062,6 +1062,11 @@ figure.news-image-scale {
 	display: block;
 }
 
+figure.news-image-scale + img {
+	min-width: 100%;
+	display: block;
+}
+
 figure.news-image-scale figcaption {
 	display: inline-block;
 	max-width: 1000px;
