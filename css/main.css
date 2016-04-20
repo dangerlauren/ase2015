@@ -1703,6 +1703,11 @@ display: none;
 	margin-bottom: 0;
 }
 
+/** Expand/Collapse generic styles **/
+.expand {
+	display: none;
+}
+
 /** Footer **/
 #footer {
 	border-top: 1px solid #808285;
