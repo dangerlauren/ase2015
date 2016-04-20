@@ -1047,10 +1047,15 @@ figcaption {
 	display: block;
 }
 
-figure.news-image-scale img, img.news-image-scale {
+figure + img.news-image-scale {
+	display: block;
+	max-width: 1000px;
+}
+
+/*figure.news-image-scale img, img.news-image-scale {
 	min-width: 100%;
 	display: block;
-}
+}*/
 
 #modulepositions .moduletable {
 	border-top: 1px solid #e0e0e0;
