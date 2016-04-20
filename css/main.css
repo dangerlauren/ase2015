@@ -1042,17 +1042,12 @@ figcaption {
 	padding: 0 1.5em;
 }
 
-/*.news-image-scale {
+.news-image-scale {
 	min-width: 100%;
 	display: block;
-}*/
+}
 
 /*figure [attribute="width:650px"] {
-	display: block;
-	max-width: 1000px;
-}*/
-
-/*figure > img.news-image-scale {
 	display: block;
 	max-width: 1000px;
 }*/
@@ -1062,7 +1057,7 @@ figure.news-image-scale {
 	display: block;
 }
 
-.news-image-scale, figure.news-image-scale + img {
+figure.news-image-scale img {
 	min-width: 100%;
 	display: block;
 }
