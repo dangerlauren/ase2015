@@ -1062,7 +1062,7 @@ figure.news-image-scale figcaption {
 	max-width: 1000px;
 }
 
-figure.news-image-scale img [attribute="width:650px"] {
+figure img [attribute="width:650px"] {
 	display: block;
 	max-width: 1000px;
 }
