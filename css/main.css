@@ -1661,6 +1661,33 @@ display: none;
 	font-size: 0;
 }
 
+.weblink-category .category {
+	margin: 1.25em 0 2em 0;
+	list-style-type: none;
+}
+
+.weblink-category .category .list-title {
+	font-size: 1.125em;
+	margin-bottom: .75em;
+}
+
+.weblink-category .category .list-title img {
+	display: none;
+}
+
+.weblink-category .category li {
+	padding: 1em 0;
+	border-top: 1px solid #d1d3d4;
+}
+
+.weblink-category .category li:first-of-type {
+	border-top: none;
+}
+
+.weblink-category .category li p {
+	margin-bottom: 0;
+}
+
 /** Footer **/
 #footer {
 	border-top: 1px solid #808285;
