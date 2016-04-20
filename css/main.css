@@ -1002,6 +1002,11 @@ figcaption {
 	caption-side: bottom;
 }
 
+figure.news-image-scale img, img.news-scale-image {
+	min-width: 100%;
+	display: block;
+}
+
 .float-left {
 	float: left;
 	padding-right: 3em;
