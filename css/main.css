@@ -1042,10 +1042,10 @@ figcaption {
 	padding: 0 1.5em;
 }
 
-.news-image-scale {
+/*.news-image-scale {
 	min-width: 100%;
 	display: block;
-}
+}*/
 
 /*figure [attribute="width:650px"] {
 	display: block;
