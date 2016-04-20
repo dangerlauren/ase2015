@@ -1047,7 +1047,7 @@ figcaption {
 	display: block;
 }
 
-figure + img.news-image-scale {
+figure > img.news-image-scale {
 	display: block;
 	max-width: 1000px;
 }
