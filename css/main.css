@@ -1062,7 +1062,7 @@ figure.news-image-scale {
 	display: block;
 }
 
-figure.news-image-scale + img {
+.news-image-scale, figure.news-image-scale + img {
 	min-width: 100%;
 	display: block;
 }
