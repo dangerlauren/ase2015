@@ -799,7 +799,7 @@ table td p {
 	font-size: .95em;
 }
 
-.moduletableseminars .presenter:first-line {
+.moduletableseminars span.presenter {
 	display: block;
 	line-height: 4em;
 }
