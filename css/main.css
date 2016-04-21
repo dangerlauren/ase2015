@@ -800,7 +800,7 @@ table td p {
 }
 
 .moduletableseminars span.presenter {
-	display: block;
+	/*display: block;*/
 	line-height: 4em;
 }
 
