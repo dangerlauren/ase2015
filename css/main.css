@@ -1593,6 +1593,10 @@ display: none;
 	width: 100%;
 }
 
+.blog-researchareas .items-leading .leading-0 p:first-of-type {
+	margin-bottom: 0;
+}
+
 /** News **/
 
 .redirect-ltr h2 {
