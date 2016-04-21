@@ -280,6 +280,7 @@
 	height: auto;
 	overflow: hidden;
 	margin: 0;
+	max-width: 1100px;
 }
 
 #research-table p {
