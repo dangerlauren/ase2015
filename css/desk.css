@@ -152,6 +152,10 @@
 	width: 65%;
 }
 
+.blog {
+	width: 96.25%;
+}
+
 .moduletable-homenews2, .moduletableseminars {	
 	min-height: 390px;				
 }
