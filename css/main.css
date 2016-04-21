@@ -801,6 +801,7 @@ table td p {
 
 .moduletableseminars .presenter:first-line {
 	display: block;
+	line-height: 4em;
 }
 
 .moduletableseminars .mod_events_latest_date:first-of-type {
