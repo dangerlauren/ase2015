@@ -23,12 +23,12 @@
 /*FLOAT STYLES*/
 .float-left {
 	float: left;
-	padding-right: 1.5em;
+	padding: .35em 1.5em 0 0;
 }
 
 .float-right {
 	float: right;
-	padding-left: 1.5em;
+	padding-left: .35em 0 0 1.5em;
 }
 
 /*IMAGE SCALING*/

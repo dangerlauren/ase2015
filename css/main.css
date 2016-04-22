@@ -1008,12 +1008,12 @@ figcaption {
 
 .float-left {
 	float: left;
-	padding-right: 1.5em;
+	padding: .35em 1.5em 0 0;
 }
 
 .float-right {
 	float: right;
-	padding-left: 1.5em;
+	padding-left: .35em 0 0 1.5em;
 }
 
 .maincaption {
@@ -1616,13 +1616,10 @@ display: none;
 	max-width: 1000px;
 }
 
-.item-page-news p:first-of-type {
-	margin: 0;
-}
 
-/*.item-page-news p {
+.item-page-news figure + p {
 	margin: 1.5em 0;
-}*/
+}
 
 .item-page-news .published {
 	margin-bottom: 1em;
