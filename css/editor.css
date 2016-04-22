@@ -23,12 +23,18 @@
 /*FLOAT STYLES*/
 .float-left {
 	float: left;
-	padding-right: 3em;
+	padding-right: 1.5em;
 }
 
 .float-right {
 	float: right;
-	padding-left: 3em;
+	padding-left: 1.5em;
+}
+
+/*IMAGE SCALING*/
+.news-image-scale {
+	min-width: 100%;
+	display: block;
 }
 
 /*BUTTON STYLES*/
@@ -209,12 +215,6 @@
 /*TABLE STYLE*/
 .set-table-width {
 	max-width: 1000px;
-}
-
-/*IMAGE SCALING*/
-.news-image-scale {
-	min-width: 100%;
-	display: block;
 }
 
 /*EXPAND-COLLAPSE*/
