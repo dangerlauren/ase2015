@@ -1705,6 +1705,20 @@ display: none;
 	margin-bottom: 0;
 }
 
+.weblinks-category .category li ul.tags li {
+	list-style: none;
+	border: none;
+	padding: 0;
+}
+
+.weblinks-category .category li ul.tags li a {
+	background-color: #eaeaea;
+	padding: .5em;
+	color: #000;
+	border:	1px solid;
+	font-size: .8em;
+}
+
 /** Expand/Collapse generic styles **/
 .expand {
 	display: none;
