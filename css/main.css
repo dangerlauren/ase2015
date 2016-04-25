@@ -1612,7 +1612,7 @@ display: none;
 	margin: 0 0 1em 1em;
 }
 
-.item-page-news {
+.item-page-news, .item-page {
 	max-width: 1000px;
 }
 
