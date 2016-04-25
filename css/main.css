@@ -1725,6 +1725,12 @@ display: none;
 	font-size: .8em;
 }
 
+.weblink-category .category li ul.tags li a:hover {
+	text-decoration: none;
+	background-color: #005E83;
+	color: #fff;
+}
+
 /** Expand/Collapse generic styles **/
 .expand {
 	display: none;
