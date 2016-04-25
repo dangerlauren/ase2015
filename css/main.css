@@ -1334,6 +1334,10 @@ display: none;
 	margin-top: -1.5em;
 }
 
+#jevents .jeventpage {
+	margin-top: 0;
+}
+
 #jevents .contentheading {
 	font-size: 1.875em;
 	letter-spacing: .01em;
