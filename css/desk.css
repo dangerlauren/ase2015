@@ -110,7 +110,6 @@
 #header .moduletable-utilitynav .nav li {
 	/*margin: 0em 4em -1.5em 4em;	*/
 	margin: 0em 3em -1.5em 4em;	
-
 }
 
 #right {
@@ -420,6 +419,21 @@
 @media (min-width: 999px) {
 	.menu-subnav {
 		display: block !important;
+	}
+}
+
+@media (min-width: 1280px) {
+	#header .moduletable-mainnav .nav {
+		min-width: 1188px;
+	}
+
+	#header .moduletable-mainnav .nav li {
+		font-size: .8em;
+		margin: 0 2em;
+	}
+
+	#header .moduletable-utilitynav .nav li {
+		margin: 0em 4em -1.5em 4em;	
 	}
 }
 
