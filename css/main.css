@@ -1736,6 +1736,20 @@ display: none;
 	color: #fff;
 }
 
+.tag-category form ul.category {
+	list-style: none;
+	margin: 0;
+}
+
+.tag-category form ul.category li:first-of-type {
+	border-top: none;
+}
+
+.tag-category form ul.category li {
+	border-top: 1px solid #e0e0e0;
+	padding-top: 1em;
+}
+
 /** Expand/Collapse generic styles **/
 .expand {
 	display: none;
