@@ -141,14 +141,6 @@ $listDirn	= $this->escape($this->state->get('list.direction'));
 							src="<?php echo htmlspecialchars($images->image_first); ?>" alt="<?php echo htmlspecialchars($images->image_first_alt); ?>"/> </div>
 						<?php endif; ?>
 
-
-						<?php $tagsData = $item->tags->getItemTags('com_weblinks.weblink', $item->id); ?>
-						<?php if ($this->params->get('show_tags', 1)) : ?>
-							<?php $this->item->tagLayout = new JLayoutFile('joomla.content.tags'); ?>
-							<?php echo $this->item->tagLayout->render($tagsData); ?>
-						<?php endif; ?>
-						
-
 						<?php  if (isset($images->image_second) and !empty($images->image_second)) : ?>
 						<?php $imgfloat = (empty($images->float_second)) ? $this->params->get('float_second') : $images->float_second; ?>
 						<div class="pull-<?php echo htmlspecialchars($imgfloat); ?> item-image"> <img
@@ -160,6 +152,13 @@ $listDirn	= $this->escape($this->state->get('list.direction'));
 
 						<?php echo $item->description; ?>
 						<?php endif; ?>
+
+						<?php $tagsData = $item->tags->getItemTags('com_weblinks.weblink', $item->id); ?>
+						<?php if ($this->params->get('show_tags', 1)) : ?>
+							<?php $this->item->tagLayout = new JLayoutFile('joomla.content.tags'); ?>
+							<?php echo $this->item->tagLayout->render($tagsData); ?>
+						<?php endif; ?>
+							
 
 						</li>
 				<?php endif;?>

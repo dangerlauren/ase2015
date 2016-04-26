@@ -1707,7 +1707,7 @@ display: none;
 }
 
 .weblink-category .category li ul.tags {
-	margin: 0;
+	margin: .5em 0 1em 0;
 }
 
 .weblink-category .category li ul.tags li {
