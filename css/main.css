@@ -1719,10 +1719,10 @@ display: none;
 
 .weblink-category .category li ul.tags li a {
 	background-color: #eaeaea;
-	padding: .5em;
-	color: #000;
+	padding: .25em;
+	color: #3a3a3a;
 	border:	1px solid;
-	font-size: .8em;
+	font-size: .7em;
 }
 
 .weblink-category .category li ul.tags li a:hover {
