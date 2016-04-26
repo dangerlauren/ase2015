@@ -954,7 +954,7 @@ table td p {
 	margin-bottom: .5em;
 }
 
-.item-page, .blog, .blog-undergrad, .blog-news, #modulepositions, .custom-rankings, #faccontent, .facdirectory h1, #faccontentdept, .blog-researchareas, .item-page-news, #jevents, .item-page-undergrad, .item-pagealumprofiles, .search, .weblink-category {
+.item-page, .blog, .blog-undergrad, .blog-news, #modulepositions, .custom-rankings, #faccontent, .facdirectory h1, #faccontentdept, .blog-researchareas, .item-page-news, #jevents, .item-page-undergrad, .item-pagealumprofiles, .search, .weblink-category, .tag-category {
 	margin: 0 5%;
 }
 
