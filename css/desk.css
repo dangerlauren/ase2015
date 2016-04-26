@@ -444,7 +444,7 @@
 
 }
 
-@media (max-width: 1188px) {
+@media (max-width: 1088px) {
 	/*CONDENSE VIDEO SPACE ON HOME PAGE*/
 	.custom-video .video-container {
 		height: 400px; 
