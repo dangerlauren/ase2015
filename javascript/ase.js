@@ -119,7 +119,9 @@
 	$(function() {
 		$(".switch a").click(function(event) { 
 			event.preventDefault(); 
-			$($(this).attr("href")).slideToggle();
+			$(this).attr("href")).slideToggle();
+			$(this).addClass('active');
+			$(this).not(this).removeClass('active');
 		});
 	});
 

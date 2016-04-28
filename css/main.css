@@ -1759,6 +1759,10 @@ display: none;
 	content: ' >';
 }
 
+.switch a.active:after {
+	content: ' \2228';
+}
+
 /** Footer **/
 #footer {
 	border-top: 1px solid #808285;
