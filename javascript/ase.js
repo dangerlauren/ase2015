@@ -120,9 +120,8 @@
 		$(".switch a").click(function(event) { 
 			event.preventDefault(); 
 			$(this).attr("href")).slideToggle();
-			$(this).toggleClass('active');
-			// $(this).addClass('active');
-			// $(this).not(this).removeClass('active');
+			$(this).addClass('active');
+			$(this).not(this).removeClass('active');
 		});
 	});
 
