@@ -116,12 +116,24 @@
 		});
 	});
 	
+	// $(function() {
+	// 	$(".switch a").click(function(event) { 
+	// 		event.preventDefault(); 
+	// 		$(this).attr("href")).slideToggle();
+	// 		$(this).addClass('active');
+	// 		$(this).not(this).removeClass('active');
+	// 	});
+	// });
+
 	$(function() {
-		$(".switch a").click(function(event) { 
-			event.preventDefault(); 
-			$(this).attr("href")).slideToggle();
-			$(this).addClass('active');
-			$(this).not(this).removeClass('active');
+		$(".switch a").click(function(e) { 
+
+			var link = $(this).attr("href");
+			
+			$(link).slideToggle();
+			$(this).toggleClass('active');
+			
+			e.preventDefault(); 
 		});
 	});
 
