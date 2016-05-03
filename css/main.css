@@ -1635,6 +1635,10 @@ display: none;
 	/*float: left;*/
 }
 
+.item-page.about p img {
+	margin: 0;
+}
+
 .blog-news .items-leading p, .items-row p {
 	margin: 1em 0 1em 0;
 }
