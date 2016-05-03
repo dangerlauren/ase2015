@@ -1069,10 +1069,15 @@ figure.news-image-scale figcaption {
 	max-width: 1000px;
 }
 
-figure img[width="650"], .item-page-news div img {
+/*figure img[width="650"], .item-page-news div div, .item-page-news div p {
 	display: block;
 	max-width: 1000px;
 }
+
+.item-page-news div div img, .item-page-news div p img {
+	min-width: 100%;
+	display: block;
+}*/
 
 #modulepositions .moduletable {
 	border-top: 1px solid #e0e0e0;
