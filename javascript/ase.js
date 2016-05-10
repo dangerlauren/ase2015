@@ -126,6 +126,7 @@
 	// });
 
 	$(function() {
+
 		$(".switch a").click(function(e) { 
 
 			var link = $(this).attr("href");
@@ -134,6 +135,7 @@
 			$(this).toggleClass('active');
 			
 			e.preventDefault(); 
+
 		});
 	});
 
