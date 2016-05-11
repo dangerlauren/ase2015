@@ -16,7 +16,7 @@ $isSingleTag = (count($this->item) == 1);
 <div class="tag-category<?php echo $this->pageclass_sfx; ?>">
 	<?php if ($this->params->get('show_page_heading')) : ?>
 		<h1>
-			Topic: <?php echo $this->escape($this->params->get('page_heading')); ?>
+			Topic: <?php echo JHtml::_('content.prepare', $this->tags_title, '', 'com_tag.tag'); ?>
 		</h1>
 	<?php endif; ?>
 	<?php if ($this->params->get('show_tag_title', 1)) : ?>

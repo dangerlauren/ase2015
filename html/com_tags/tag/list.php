@@ -17,7 +17,7 @@ $n = count($this->items);
 <div class="tag-category<?php echo $this->pageclass_sfx; ?>">
 	<?php if ($this->params->get('show_page_heading')) : ?>
 		<h3>
-			Topic: <?php echo $this->escape($this->params->get('page_heading')); ?>
+			Topic: <?php echo $this->escape($this->params->get('show_tag_title')); ?>
 		</h3>
 	<?php endif; ?>
 	<?php if ($this->params->get('show_tag_title', 1)) : ?>
