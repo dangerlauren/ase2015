@@ -46,9 +46,9 @@ if (!empty($this->items))
 
 			<?php foreach ($this->items as $i => $article) : ?>
 				<?php if ($this->items[$i]->state == 0) : ?>
-				 <li class="system-unpublished cat-list-row<?php echo $i % 2; ?>">
+				 <li class="system-unpublished cat-list-row<?php echo $i; ?>">
 				<?php else: ?>
-				<li class="cat-list<?php echo $i % 2; ?>" >
+				<li class="cat-list<?php echo $i; ?>" >
 				<?php endif; ?>
 						<?php if (in_array($article->access, $this->user->getAuthorisedViewLevels())) : ?>
 							<a href="<?php echo JRoute::_(ContentHelperRoute::getArticleRoute($article->slug, $article->catid, $article->language)); ?>">
