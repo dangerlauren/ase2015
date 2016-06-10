@@ -50,10 +50,12 @@ if (!empty($this->items))
 				<?php else: ?>
 				<li class="cat-list<?php echo $i; ?>" >
 				<?php endif; ?>
-						<?php if (in_array($article->access, $this->user->getAuthorisedViewLevels())) : ?>
+						<?php if (in_array($article->access, $this->user->getAuthorisedViewLevels())) : 
+						$title = explode("(", $this->escape($article->title));
+						?>
 							<a href="<?php echo JRoute::_(ContentHelperRoute::getArticleRoute($article->slug, $article->catid, $article->language)); ?>">
-								<?php echo $this->escape($article->title); ?>
-							</a>
+								<?php echo $title[0]; ?>
+							</a> <?php echo $title[1]; ?>
 						<?php else: ?>
 							<?php
 							echo $this->escape($article->title) . ' : ';
