@@ -55,7 +55,7 @@ if (!empty($this->items))
 						?>
 							<a href="<?php echo JRoute::_(ContentHelperRoute::getArticleRoute($article->slug, $article->catid, $article->language)); ?>">
 								<?php echo $title[0]; ?>
-							</a> <?php echo $title[1]; ?>
+							</a> <?php echo "(".$title[1]; ?>
 						<?php else: ?>
 							<?php
 							echo $this->escape($article->title) . ' : ';
