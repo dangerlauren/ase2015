@@ -29,7 +29,7 @@ $xref = $metabundle->{'xreference'};
 					<?php if ($params->get('link_titles') && $params->get('access-view')) : 
 						if ($displayData->catid == "151"):
 					?>
-						<a href="faculty/faculty-directory/<?php echo $displayData->alias;?> itemprop="url">
+						<a href="faculty/faculty-directory/<?php echo $displayData->alias;?>" itemprop="url">
 					<?php else : ?>
 						<a href="<?php echo JRoute::_(ContentHelperRoute::getArticleRoute($displayData->slug, $displayData->catid, $displayData->language)); ?>" itemprop="url">
 						<?php 
