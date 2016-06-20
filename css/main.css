@@ -94,6 +94,7 @@ h3 {
 	color: #bf5700;
 	letter-spacing: .025em;
 	margin-bottom: 1em;
+	padding-bottom: .5em;
 }
 
 h3 a:link, h3 a:visited {
@@ -1100,8 +1101,9 @@ figure.news-image-scale figcaption {
 }
 
 #modulepositions .moduletable h3 {
-	margin: 1em 0 .5em 0;
+	margin: 1em 0 0 0;
 	color: #bf5700;
+	float: left;
 }
 
 #modulepositions .moduletable .custom {
@@ -1109,12 +1111,25 @@ figure.news-image-scale figcaption {
 	overflow: hidden;
 }
 
+#modulepositions .moduletable .custom p {
+	float: left;
+}
+
+#modulepositions .moduletable .custom p:nth-last-child(2) {
+	margin-bottom: 1em;
+}
+
 #modulepositions .moduletable .custom h3 a:link, #modulepositions .moduletable .custom h3 a:visited {
 	color: #bf5700;
 	font-weight: 700;
 }
 
-#modulepositions .moduletable .custom img, #modulepositions .moduletable .custom iframe {
+#modulepositions .moduletable .custom img {
+	float: left;
+	margin: 2em 2em 0 0;
+}
+
+#modulepositions .moduletable .custom iframe {
 	float: left;
 	margin: 2em 2em 2em 0;
 }
