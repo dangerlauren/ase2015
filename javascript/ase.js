@@ -49,8 +49,8 @@
 			if (n == 'newsnull') {
 				return false;
 			} else {
-				$('.'+ n).css({'display':'block'});
-				$('.newsflash-homenews div:not(.'+ n +')').css({'display':'none'});
+				$('.'+ n).addClass('showme').removeClass('hideme');
+					$('.moduletable-flex:not(.'+ n +')').addClass('hideme').removeClass('showme');
 				
 				switch (n) {
 					case "newsone" :
@@ -76,8 +76,8 @@
 			if (n == 'newsnull') {
 				return false;
 			} else {
-				$('.'+ n).css({'display':'block'});
-				$('.newsflash-homenews2 div:not(.'+ n +')').css({'display':'none'});
+				$('.'+ n).addClass('showme').removeClass('hideme');
+					$('.moduletable-flex:not(.'+ n +')').addClass('hideme').removeClass('showme');
 				switch (n) {
 					case "newsone" :
 						$('.moduletable-homenews2 p a.next').attr('href', '#newstwo').removeClass('disabled');
