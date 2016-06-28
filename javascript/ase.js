@@ -78,6 +78,7 @@
 			} else {
 				$('.'+ n).addClass('showme').removeClass('hideme');
 				$('.newsflash-homenews2 div:not(.'+ n +')').addClass('hideme').removeClass('showme');
+				switch (n) {
 					case "newsone" :
 						$('.moduletable-homenews2 p a.next').attr('href', '#newstwo').removeClass('disabled');
 						$('.moduletable-homenews2 p a.prev').attr('href','#newsnull').addClass('disabled');

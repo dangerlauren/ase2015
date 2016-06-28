@@ -208,14 +208,14 @@ tr {
 }
 
 .newsflash-homenews div, .newsflash-homenews2 div {
-	display: none;
+	/*display: none;*/
 	width: auto;
 	float: none;
 	margin: 0 5%;
 }
 
 .newsflash-homenews div.newsone, .newsflash-homenews2 div.newsone {
-	display: block;
+	/*display: block;*/
 }
 
 .newsflash-homenews div .attachmentsContainer, .newsflash-homenews2 div .attachmentsContainer {
