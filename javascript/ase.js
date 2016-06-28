@@ -76,9 +76,8 @@
 			if (n == 'newsnull') {
 				return false;
 			} else {
-				$('.'+ n).css({'display':'block'});
-				$('.newsflash-homenews2 div:not(.'+ n +')').css({'display':'none'});
-				switch (n) {
+				$('.'+ n).addClass('showme').removeClass('hideme');
+				$('.newsflash-homenews2 div:not(.'+ n +')').addClass('hideme').removeClass('showme');
 					case "newsone" :
 						$('.moduletable-homenews2 p a.next').attr('href', '#newstwo').removeClass('disabled');
 						$('.moduletable-homenews2 p a.prev').attr('href','#newsnull').addClass('disabled');
