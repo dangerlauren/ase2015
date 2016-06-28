@@ -341,6 +341,14 @@ tr {
 	margin: 2em 0 0 0;
 }
 
+.showme {
+	display: block;
+}
+
+.hideme {
+	display: none;
+}
+
 /*-----EAC-----*/
 
 .blog.eac .category-desc h2 {
