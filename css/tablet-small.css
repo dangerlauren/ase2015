@@ -90,7 +90,7 @@ tr {
 
 .moduletable-flex.one {
 	margin: 0 3%;
-	display: block;
+	/*display: block;*/
 }
 
 .moduletable-flex.two {
