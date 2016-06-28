@@ -71,7 +71,7 @@ tr {
 }
 
 .moduletable-flexcontrols {
-	/*display: block;*/
+	display: block;
 	border-top: none;
 	margin: 1.5em 3% 1em 3%;
 	clear: both;
@@ -159,7 +159,7 @@ tr {
 
 .moduletable-flex.one {
 	margin: 0 3%;
-	display: block;
+	/*display: block;*/
 }
 
 .moduletable-flex.two {
