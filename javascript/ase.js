@@ -23,8 +23,8 @@
 				if (n == 'null') {
 					return false;
 				} else {
-					$('.'+ n).addClass('showme');
-					$('.moduletable-flex:not(.'+ n +')').addClass('hideme');
+					$('.'+ n).addClass('showme').removeClass('hideme');
+					$('.moduletable-flex:not(.'+ n +')').addClass('hideme').removeClass('showme');
 					switch (n) {
 						case "one" :
 							$('.moduletable-flexcontrols p a.next').attr('href', '#two');
