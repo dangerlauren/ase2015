@@ -1948,10 +1948,6 @@ display: none;
 	display: block;
 }
 
-.hideme {
-	display: none;
-}
-
 @media (max-width: 843px) {
 	#research-table .custom div p {
 		font-size: .8em;
