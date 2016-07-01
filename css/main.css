@@ -1253,6 +1253,13 @@ table col.name, table col.title {
 	display: block;
 }
 
+/** Tags **/
+.tagcat {
+	font-size: 1em;
+	text-transform: uppercase;
+	margin-bottom: 1em;
+}
+
 /** Search **/
 #header .search {
 	float: right;
