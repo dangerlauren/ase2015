@@ -1852,8 +1852,8 @@ display: none;
 	padding-top: 1em;
 }
 
-.tag-category ul li h3 {
-	margin-bottom: 0;
+.tag-category h1 span {
+	font-weight: 300;
 }
 
 /** Expand/Collapse generic styles **/
