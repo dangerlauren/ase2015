@@ -646,7 +646,7 @@ table td p {
 	min-width: 75%;
 }
 
-.custom-flex .category {
+.custom-flex .category, .tagcat {
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: .75em;
@@ -1254,11 +1254,6 @@ table col.name, table col.title {
 }
 
 /** Tags **/
-.tagcat {
-	font-size: 1em;
-	text-transform: uppercase;
-	margin-bottom: 1em;
-}
 
 /** Search **/
 #header .search {
