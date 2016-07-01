@@ -1253,8 +1253,6 @@ table col.name, table col.title {
 	display: block;
 }
 
-/** Tags **/
-
 /** Search **/
 #header .search {
 	float: right;
@@ -1852,6 +1850,10 @@ display: none;
 .tag-category form ul.category li {
 	border-top: 1px solid #e0e0e0;
 	padding-top: 1em;
+}
+
+.tag-category ul li h3 {
+	margin-bottom: 0;
 }
 
 /** Expand/Collapse generic styles **/
