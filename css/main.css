@@ -1826,7 +1826,7 @@ display: none;
 
 .weblink-category .category li ul.tags li a {
 	background-color: #eaeaea;
-	padding: .25em;
+	padding: .25em .45em;
 	color: #3a3a3a;
 	border:	1px solid;
 	font-size: .7em;
