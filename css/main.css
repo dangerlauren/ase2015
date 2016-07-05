@@ -1852,6 +1852,10 @@ display: none;
 	padding-top: 1em;
 }
 
+.tag-category h1 {
+	text-transform: captialize;
+}
+
 .tag-category h1 span {
 	font-weight: 300;
 }
