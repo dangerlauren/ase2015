@@ -1865,6 +1865,10 @@ display: none;
 	font-weight: 300;
 }
 
+.topics .moduletable-tagnav {
+	display: none;
+}
+
 /** Expand/Collapse generic styles **/
 .expand {
 	display: none;
