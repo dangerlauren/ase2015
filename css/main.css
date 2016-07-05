@@ -1813,8 +1813,13 @@ display: none;
 	clear: left;
 }
 
-.weblink-category .category li ul.tags, .tagspopular ul {
+.weblink-category .category li ul.tags {
 	margin: .5em 0 1em 0;
+}
+
+.tagspopular ul {
+	margin: .5em 0 1em 0;
+	padding: 0 .5em;
 }
 
 .weblink-category .category li ul.tags li, .tagspopular ul li {
