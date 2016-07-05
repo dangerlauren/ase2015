@@ -1813,18 +1813,18 @@ display: none;
 	clear: left;
 }
 
-.weblink-category .category li ul.tags {
+.weblink-category .category li ul.tags, .tagspopular ul {
 	margin: .5em 0 1em 0;
 }
 
-.weblink-category .category li ul.tags li {
+.weblink-category .category li ul.tags li, .tagspopular ul li {
 	list-style: none;
 	border: none;
 	padding: 0 .5em 0 0;
 	float: left;
 }
 
-.weblink-category .category li ul.tags li a {
+.weblink-category .category li ul.tags li a, .tagspopular ul li a {
 	background-color: #eaeaea;
 	padding: .25em .45em;
 	color: #3a3a3a;
@@ -1832,7 +1832,7 @@ display: none;
 	font-size: .7em;
 }
 
-.weblink-category .category li ul.tags li a:hover {
+.weblink-category .category li ul.tags li a:hover, .tagspopular ul li a:hover  {
 	text-decoration: none;
 	background-color: #005E83;
 	color: #fff;
