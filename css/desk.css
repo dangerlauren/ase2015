@@ -125,7 +125,14 @@
   margin: 4.5em 0 1.5em 0;
 }
 
-.menuhead h3 {
+.moduletable-tagnav h3  {
+  cursor: pointer;
+  border: none;
+  border-top: 4px solid #bf5700;
+  margin: 4.5em 0 0 0;
+}
+
+.menuhead h3, .moduletable-tagnav h3 {
   color: #bf5700;
   font-size: 1.3em;
   padding: .5em;

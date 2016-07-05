@@ -647,7 +647,7 @@ table td p {
 	min-width: 75%;
 }
 
-.custom-flex .category {
+.custom-flex .category, .tagcat {
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: .75em;
@@ -1832,22 +1832,27 @@ display: none;
 	margin: .5em 0 1em 0;
 }
 
-.weblink-category .category li ul.tags li {
+.tagspopular-tagnav ul {
+	margin: .5em 0 1em 0;
+	padding: 0 .5em;
+}
+
+.weblink-category .category li ul.tags li, .tagspopular-tagnav ul li {
 	list-style: none;
 	border: none;
 	padding: 0 .5em 0 0;
 	float: left;
 }
 
-.weblink-category .category li ul.tags li a {
+.weblink-category .category li ul.tags li a, .tagspopular-tagnav ul li a {
 	background-color: #eaeaea;
-	padding: .25em;
+	padding: .25em .45em;
 	color: #3a3a3a;
 	border:	1px solid;
 	font-size: .7em;
 }
 
-.weblink-category .category li ul.tags li a:hover {
+.weblink-category .category li ul.tags li a:hover, .tagspopular-tagnav ul li a:hover  {
 	text-decoration: none;
 	background-color: #005E83;
 	color: #fff;
@@ -1865,6 +1870,18 @@ display: none;
 .tag-category form ul.category li {
 	border-top: 1px solid #e0e0e0;
 	padding-top: 1em;
+}
+
+.tag-category h1 {
+	text-transform: capitalize;
+}
+
+.tag-category h1 span {
+	font-weight: 300;
+}
+
+.topics .moduletable-tagnav {
+	display: none;
 }
 
 /** Expand/Collapse generic styles **/
@@ -1957,6 +1974,10 @@ display: none;
 #footer .moduletable-connect .moduletable-resources .moduletable-helpfullinks{
   display: table;
   width: 100%;
+}
+
+.showme {
+	display: block;
 }
 
 @media (max-width: 843px) {
