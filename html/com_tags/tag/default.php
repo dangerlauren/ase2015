@@ -15,6 +15,8 @@ $isSingleTag = (count($this->item) == 1);
 $pathway = JFactory::getApplication()->getPathway();  
 //append just a name to the pathway
 $pathway->addItem($this->tags_title);
+$patharray = $pathway->getPathway();
+$patharray[1] = NULL;
 ?>
 <div class="tag-category<?php echo $this->pageclass_sfx; ?>">
 	<?php if ($this->params->get('show_page_heading')) : ?>
