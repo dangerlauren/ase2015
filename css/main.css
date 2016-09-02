@@ -1548,7 +1548,16 @@ display: none;
 
 #jevents #jevents_body p {
 	float: left;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
+}
+
+#jevents #jevents_body #seminar-btn {
+	clear: both;
+	margin-bottom: 2em; 
+}
+
+#jevents #jevents_body #seminar-btn a {
+	padding: .25em 2em;
 }
 
 /** Undergraduate **/

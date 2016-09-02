@@ -70,7 +70,7 @@ if( array_key_exists('row',$this->data) ){
 		</p>
 
 		<?php if($row->catid() != 120) {
-			echo "<p id='seminar-btn'>". "<a href='http://www.ae.utexas.edu/joomla_dev/research/seminars/' class='btn seminar-btn'>" . "View All Seminars" . "</a>" . "</p>";
+			echo "<p id='seminar-btn'>". "<a href='http://www.ae.utexas.edu/joomla_dev/research/seminars/' class='btn'>" . "View All Seminars" . "</a>" . "</p>";
 		} ?>
 
 		<?php
