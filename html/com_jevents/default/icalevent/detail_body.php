@@ -68,10 +68,11 @@ if( array_key_exists('row',$this->data) ){
 		<p align="center">
 			<a href="javascript:window.history.go(-1);" class="jev_back btn" title="<?php echo JText::_('JEV_BACK'); ?>"><?php echo JText::_('JEV_BACK'); ?></a>
 		</p>
-		<div>TEST</div>
+
+		<?php if($row->catid() != 120) {
+			echo "<p id='seminar-btn'>". "<a href='http://www.ae.utexas.edu/joomla_dev/research/seminars/' class='btn seminar-btn'>" . "View All Seminars" . "</a>" . "</p>";
+		} ?>
+
 		<?php
-	}
-    
-
+	}		
 }
-
