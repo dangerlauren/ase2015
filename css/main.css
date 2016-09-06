@@ -1549,11 +1549,12 @@ display: none;
 #jevents #jevents_body p {
 	float: left;
 	margin-bottom: 1em;
+	margin-top: .75em;
 }
 
 #jevents #jevents_body #seminar-btn {
-	clear: both;
-	margin-bottom: 2em; 
+	/*clear: both;*/
+	margin: .75em 1em 2em 1.5em;
 }
 
 #jevents #jevents_body #seminar-btn a {
