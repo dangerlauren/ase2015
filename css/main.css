@@ -1586,7 +1586,7 @@ display: none;
 	margin-bottom: 0;
 }
 
-.item-page .meetstudents div h3 {
+/*.item-page .meetstudents div h3 {
 	color: #005e83;
 }
 
@@ -1603,11 +1603,19 @@ display: none;
 .item-page .meetstudents div a {
 	width: 30%;
 	height: 150px;
+}*/
+
+.blog.meetstudents h2 {
+	font-size: 1.05em;
 }
 
-.item-page .meetstudents div:nth-last-of-type(n+3), .item-page .meetstudents div:nth-last-of-type(n+3) ~ div {
+.blog.meetstudents h2 a {
+	font-weight: 600;
+}
+
+.meetstudents .items-row div.item:nth-child(3n+1), .meetstudents .items-row div.item:nth-child(3n+1) ~ div {
 	float: left;
-	width: 30%;
+	width: 20%;
 	height: 150px;
 	padding-bottom: 7em;
 }
