@@ -1624,7 +1624,7 @@ display: none;
 
 .meetstudents .items-row div.item:nth-child(3n+1), .meetstudents .items-row div.item:nth-child(3n+1) ~ div {
 	float: left;
-	width: 20%;
+	width: 22%;
 	height: 150px;
 	padding-bottom: 7em;
 }
@@ -2093,14 +2093,9 @@ display: none;
 	}
 }
 
-@media (max-width: 725px) {
-	.item-page .meetstudents div img {
-		margin-right: 20px;
-		float: left;
-	}
-
-	.item-page .meetstudents div:nth-child(odd), .item-page .meetstudents div:nth-child(odd) ~ div {
-		width: 100%;
+@media (max-width: 999px) {
+	.meetstudents .items-row div.item:nth-child(3n+1), .meetstudents .items-row div.item:nth-child(3n+1) ~ div {
+  		width: 33%;
 	}
 
 }
