@@ -276,13 +276,13 @@ tr {
 	float: none;
 }
 
-.item-pagealumprofiles .customfeaturedalum h3 {
+.blogalumprofiles .customfeaturedalum h3 {
 	clear: left;
 	padding-top: .5em;
 	font-size: 1.25em;
 }
 
-.item-pagealumprofiles .customfeaturedalum .learnmore {
+.blogalumprofiles .learnmore {
 	margin-bottom: 0;
 }
 

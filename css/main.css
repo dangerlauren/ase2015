@@ -955,7 +955,7 @@ table td p {
 	margin-bottom: .5em;
 }
 
-.item-page, .blog, .blog-undergrad, .blog-news, #modulepositions, .custom-rankings, #faccontent, .facdirectory h1, #faccontentdept, .category-list, .blog-researchareas, .item-page-news, #jevents, .item-page-undergrad, .item-pagealumprofiles, .search, .weblink-category, .tag-category {
+.item-page, .blog, .blog-undergrad, .blog-news, #modulepositions, .custom-rankings, #faccontent, .facdirectory h1, #faccontentdept, .category-list, .blog-researchareas, .item-page-news, #jevents, .item-page-undergrad, .blogalumprofiles, .item-pagealumprofiles, .search, .weblink-category, .tag-category {
 	margin: 0 5%;
 }
 
@@ -1080,6 +1080,17 @@ figcaption {
 	text-align: right;
 }
 
+.img_caption {
+	color: #53565F;
+	line-height: 1.625em;
+	letter-spacing: .01em;
+	font-size: .95em;
+	padding: 0 .6em .5em 0;
+	font-style: italic;
+	font-weight: 300;
+	width: 100% !important;
+}
+
 .blockquote {
 	font-style: italic;
 	font-size: 1.5em;
@@ -1198,7 +1209,7 @@ figure.news-image-scale figcaption {
 	float: left;
 }
 
-.item-pagealumprofiles .customfeaturedalum {
+.blogalumprofiles .customfeaturedalum {
 	margin-bottom: 1.4em;
 	border-top: 1px solid #e0e0e0;
 	border-bottom: 1px solid #e0e0e0;
@@ -1206,17 +1217,27 @@ figure.news-image-scale figcaption {
 	float: left;
 }
 
-.item-pagealumprofiles .customfeaturedalum img {
+.blogalumprofiles .customfeaturedalum img {
 	max-height: 180px;
 }
 
-.item-pagealumprofiles .customfeaturedalum .featuredalumcontent {
+/*.item-pagealumprofiles .customfeaturedalum .featuredalumcontent {
 	float: left;
 	padding-right: 1em;
+}*/
+
+.blogalumprofiles .customfeaturedalum h3 {
+	margin-bottom: .5em;
 }
 
-.item-pagealumprofiles .customfeaturedalum h3 {
-	margin-bottom: .5em;
+.blogalumprofiles .customfeaturedalum h3 a {
+	color: #bf5700;
+}
+
+.blogalumprofiles .learnmore a {
+	color: #bf5700;
+	font-style: italic;
+	font-family: 'Georgia';
 }
 
 .blog .items-leading .leading-1 .enews {
@@ -1605,7 +1626,7 @@ display: none;
 	height: 150px;
 }*/
 
-.blog.meetstudents h2, .meetstudents.item-page .page-header h2 {
+.blog.meetstudents h2, .meetstudents.item-page .page-header h2, .blogalumprofiles > h2, .item-pagealumprofiles .page-header h2 {
 	font-size: 3em;
 	font-weight: 700;
 }
@@ -1614,22 +1635,47 @@ display: none;
 	margin-top: -1em;
 }
 
-.blog.meetstudents .page-header h2 {
+.blogalumprofiles .page-header + p {
+	font-style: italic;
+	margin-top: -1em;
+}
+
+.blogalumprofiles .page-header {
+	margin-top: 0;
+}
+
+.blog.meetstudents .page-header h2, .blogalumprofiles .page-header h2 {
 	font-size: 1.05em;
 }
 
-.blog.meetstudents .page-header h2 a {
+.blog.meetstudents .page-header h2 a, .blogalumprofiles .page-header h2 a {
 	font-weight: 600;
+}
+
+.item-pagealumprofiles p:first-of-type {
+	font-style: italic;
+	margin-top: -.25em;
 }
 
 .meetstudents .items-row div.item:nth-child(3n+1), .meetstudents .items-row div.item:nth-child(3n+1) ~ div {
 	float: left;
 	width: 22%;
-	height: 150px;
-	padding-bottom: 7em;
+	height: 375px;
+	/*padding-bottom: 15em;*/
 }
 
-.meetstudents .pull-none img {
+.blogalumprofiles .items-row div.item:nth-child(3n+1), .blogalumprofiles .items-row div.item:nth-child(3n+1) ~ div {
+	float: left;
+	width: 33%;
+	height: 150px;
+	padding-bottom: 15em;
+}
+
+.blogalumprofiles .items-row .item img, .blogalumprofiles .page-header h2, .blogalumprofiles .page-header + p {
+	max-width: 180px;
+}
+
+.meetstudents .pull-none img, .item-pagealumprofiles .pull-none img {
 	min-width: 100%;
 	margin-bottom: 2em;
 }
@@ -1639,7 +1685,7 @@ display: none;
 	width: 180px;
 }
 
-.meetstudents .pull-left {
+.meetstudents .pull-left, .item-pagealumprofiles .pull-left {
 	float: left;
 	margin: 0 2em 1em 0;
 }
@@ -1759,7 +1805,7 @@ display: none;
   margin-top: -1em;
 }
 
-.set-table-width, .item-pagealumprofiles {
+.set-table-width, .item-pagealumprofiles, .blogalumprofiles {
 	max-width: 1000px;
 	border-top: none;
 }
@@ -2097,6 +2143,5 @@ display: none;
 	.meetstudents .items-row div.item:nth-child(3n+1), .meetstudents .items-row div.item:nth-child(3n+1) ~ div {
   		width: 33%;
 	}
-
 }
 

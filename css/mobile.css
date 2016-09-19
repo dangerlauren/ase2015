@@ -250,8 +250,13 @@ tr {
 	display: none;
 }
 
-.meetstudents .items-row div.item:nth-child(n), .meetstudents .items-row div.item:nth-child(n) ~ div {
+.meetstudents .items-row div.item:nth-child(n), .meetstudents .items-row div.item:nth-child(n) ~ div, .blogalumprofiles .items-row div.item:nth-child(n), .blogalumprofiles .items-row div.item:nth-child(n) ~ div {
   width: 90%;
+  padding-bottom: 10em;
+}
+
+.blogalumprofiles .page-header h2, .blogalumprofiles .page-header + p {
+	max-width: none;
 }
 
 #research-table .custom.one p {
