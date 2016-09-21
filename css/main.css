@@ -1635,26 +1635,43 @@ display: none;
 	margin-top: -1em;
 }
 
-.blogalumprofiles .page-header + p {
+.blogalumprofiles .item > p {
 	font-style: italic;
-	margin-top: -1em;
+	max-width: 180px;
 }
 
 .blogalumprofiles .page-header {
 	margin-top: 0;
 }
 
+.blogalumprofiles .page-header + div {
+	font-weight: 600;
+	margin: -1.25em 0 -1em;
+	max-width: 180px;
+}
+
 .blog.meetstudents .page-header h2, .blogalumprofiles .page-header h2 {
 	font-size: 1.05em;
+}
+
+.blogalumprofiles .page-header h2 {
+	margin-top: .4em;
 }
 
 .blog.meetstudents .page-header h2 a, .blogalumprofiles .page-header h2 a {
 	font-weight: 600;
 }
 
+.item-pagealumprofiles h3 {
+	margin-bottom: 0em;
+}
+
 .item-pagealumprofiles p:first-of-type {
-	font-style: italic;
-	margin-top: -.25em;
+	margin-top: -.4em;
+}
+
+.item-pagealumprofiles h3:first-of-type {
+	margin-top: -.4em;
 }
 
 .meetstudents .items-row div.item:nth-child(3n+1), .meetstudents .items-row div.item:nth-child(3n+1) ~ div {
@@ -1688,6 +1705,11 @@ display: none;
 .meetstudents .pull-left, .item-pagealumprofiles .pull-left {
 	float: left;
 	margin: 0 2em 1em 0;
+}
+
+.meetstudents .pull-right, .item-pagealumprofiles .pull-right {
+	float: right;
+	margin: 0 0 1em 2em;
 }
 
 .meetstudents.item-page h3 {
