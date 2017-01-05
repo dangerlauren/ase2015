@@ -291,6 +291,15 @@ tr {
 	float: none;
 }
 
+.img-intro-:first-of-type {
+	margin-top: 0;
+}
+
+.img-intro- {
+	float: none;
+	margin: -2em 0 -4em 0;
+}
+
 /* CALENDAR */
 
 #jevents #jevents_body .ev_table .ev_td_left {

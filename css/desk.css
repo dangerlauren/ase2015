@@ -306,6 +306,16 @@
 	list-style: none;
 }
 
+.undergradprograms ul.comp-career li {
+	float: left;
+	width: 50%;
+}
+
+.undergradprograms .button-med-orange {
+	clear: both;
+	padding: 1em 0;
+}
+
 /** Research **/
 
 #research-table {
@@ -445,6 +455,8 @@
 	padding-right: 3.25%;
 }
 
+
+
 /*KEEP SIDENAV VIEWABLE AFTER SCREEN RESIZE*/
 @media (min-width: 999px) {
 	.menu-subnav {
@@ -466,8 +478,6 @@
 		margin: 0em 4em -1.5em 4em;	
 	}
 }
-
-
 
 @media (max-width: 1280px) {
 	/*FLIP ALUMNI MENU TO RIGHT JUSTIFY*/
@@ -491,6 +501,13 @@
 		font-size: .8em;
 	}
 
+}
+
+@media(max-width: 1150px) {
+	.undergradprograms ul.comp-career li {
+		float: none;
+		width: 100%;
+	}
 }
 
 @media (max-width: 999px) {
@@ -568,5 +585,3 @@
 	}	
 
 }
-
-
