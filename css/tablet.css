@@ -133,7 +133,7 @@ h1 {
   }
 
   .slide-text, .slide-text p {
-    font-size: 1em;
+    font-size: .95em;
   }
 
 #header .search {
@@ -266,6 +266,12 @@ h1 {
       width: 50%;
   }
 }
+
+/*@media (max-width: 650px) {
+  .moduletable-video.slider {
+    margin-bottom: 8em;
+  }
+}*/
 
 @media (max-width: 600px) {
   #modulepositions .moduletable .custom h3, #modulepositions .moduletable .custom h3 a:link, #modulepositions .moduletable .custom h3 a:visited {
