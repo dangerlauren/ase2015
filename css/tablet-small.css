@@ -226,6 +226,14 @@ tr {
 	clear: both;
 }
 
+.djslider-loader-default {
+	overflow: visible !important;
+}
+
+.moduletable-video.slider {
+    margin: 4% 3.25%;
+  }
+
 .moduletable-rankings {
 	padding-left: 0;
 }

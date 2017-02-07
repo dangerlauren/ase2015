@@ -252,7 +252,11 @@ ul {
 
 .moduletable-video {
 	margin-bottom: 2em;
-  }
+}
+
+.djslider-loader-default {
+	margin-bottom: 6% !important;
+}
 
 #header .search {
 	display: none;
