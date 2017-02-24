@@ -978,7 +978,7 @@ table td p {
 	margin-bottom: .5em;
 }
 
-.item-page, .blog, .blog-undergrad, .blog-news, #modulepositions, .custom-rankings, #faccontent, .facdirectory h1, #faccontentdept, .category-list, .blog-researchareas, .item-page-news, #jevents, .item-page-undergrad, .blogalumprofiles, .item-pagealumprofiles, .search, .weblink-category, .tag-category {
+.item-page, .blog, .blog-undergrad, .blog-news, .blog-exploreut, #modulepositions, .custom-rankings, #faccontent, .facdirectory h1, #faccontentdept, .category-list, .blog-researchareas, .item-page-news, #jevents, .item-page-undergrad, .blogalumprofiles, .item-pagealumprofiles, .search, .weblink-category, .tag-category {
 	margin: 0 5%;
 }
 
@@ -2087,7 +2087,7 @@ display: none;
 	float: left;
 }
 
-.weblink-category .category li ul.tags li a, .tagspopular-tagnav ul li a {
+.weblink-category .category li ul.tags li a, .tagspopular-tagnav ul li a, .blog-exploreut .items-row .event-type {
 	background-color: #eaeaea;
 	padding: .25em .45em;
 	color: #3a3a3a;
@@ -2121,6 +2121,16 @@ display: none;
 
 .tag-category h1 span {
 	font-weight: 300;
+}
+
+.blog-exploreut .items-row .event-type {
+	display: inline-block;
+	margin-bottom: 1em;
+}
+
+.blog-exploreut .category-desc img {
+	max-width: 600px;
+	margin-bottom: 2em;
 }
 
 

@@ -316,6 +316,12 @@
 	padding: 1em 0;
 }
 
+.blog-exploreut .items-row {
+	width: 1000px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 1em;
+}
+
 /** Research **/
 
 #research-table {
