@@ -123,6 +123,13 @@ table td p {
 	clip: rect(1px 1px 1px 1px); /* IE 6 and 7*/
 	clip: rect(1px, 1px, 1px, 1px);
 }
+
+.video-list {
+	float: left;
+	padding: .35em 1.5em 0 0;
+	width: 250px !important;
+	height: auto !important;
+}
 	
 
 /** Wrapper **/

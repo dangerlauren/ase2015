@@ -37,6 +37,13 @@
 	display: block;
 }
 
+.video-list {
+	float: left;
+	padding: .35em 1.5em 0 0;
+	width: 250px !important;
+	height: auto !important;
+}
+
 /*BUTTON STYLES*/
 .button-sm-orange  {
 	color: #fff;
