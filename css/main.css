@@ -127,8 +127,8 @@ table td p {
 .video-list {
 	float: left;
 	padding: .35em 1.5em 0 0;
-	width: 250px !important;
-	height: auto !important;
+	width: auto !important;
+	height: 202px !important;
 }
 	
 
@@ -1515,6 +1515,16 @@ table col.name, table col.title {
 .blog.eac .span12 {
 	max-width: 1000px;
 	margin-right: 5%;
+}
+
+.vtour .items-row {
+	/*border-bottom: 1px solid #eaeaea;*/
+	margin: 3em 0;
+	padding-bottom: 3em;
+}
+
+.vtour .items-row:last-of-type {
+	border-bottom: none;
 }
 
 /** Calendar **/
