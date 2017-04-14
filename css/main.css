@@ -126,9 +126,9 @@ table td p {
 
 .video-list {
 	float: left;
-	padding: .35em 1.5em 0 0;
-	width: auto !important;
-	height: 202px !important;
+	padding: .35em 1.5em 3em 0;
+	/*width: auto !important;
+	height: 202px !important;*/
 }
 	
 
@@ -1517,14 +1517,28 @@ table col.name, table col.title {
 	margin-right: 5%;
 }
 
+.blog.vtour {
+	width: 90%;
+}
+
 .vtour .items-row {
-	/*border-bottom: 1px solid #eaeaea;*/
+	border-bottom: 1px solid #eaeaea;
 	margin: 3em 0;
-	padding-bottom: 3em;
+	padding-bottom: 1em;
+	clear: both;
+	overflow: auto;
 }
 
 .vtour .items-row:last-of-type {
 	border-bottom: none;
+}
+
+.vtour .video {
+	width: 45%;
+}
+
+.vtour .item p {
+	max-width: none;
 }
 
 /** Calendar **/
