@@ -1521,17 +1521,25 @@ table col.name, table col.title {
 	width: 90%;
 }
 
+.blog.vtour .category-desc {
+	width: 100%;
+}
+
+.blog.vtour .category-desc p {
+	max-width: none;
+}
+
 .vtour .items-row {
-	border-bottom: 1px solid #eaeaea;
-	margin: 3em 0;
-	padding-bottom: 1em;
+	border-top: 1px solid #eaeaea;
+	margin: 1.5em 0;
+	padding-top: 4em;
 	clear: both;
 	overflow: auto;
 }
 
-.vtour .items-row:last-of-type {
+/*.vtour .items-row:last-of-type {
 	border-bottom: none;
-}
+}*/
 
 .vtour .video {
 	width: 45%;
