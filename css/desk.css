@@ -181,6 +181,10 @@
 	clear: right;
 }
 
+.slider .djslider-default {
+	max-height: 1250px;
+}
+
 #modulepositions .moduletable h3 {
 	margin: 1em 0 0 0;
 	float: none;
@@ -505,6 +509,10 @@
 
 	#research-table .custom div p {
 		font-size: .8em;
+	}
+
+	.slider .djslider-default {
+		min-height: 700px;
 	}
 
 }
