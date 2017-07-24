@@ -2049,6 +2049,10 @@ display: none;
 	margin: 0;
 }
 
+.blog-news .items-leading .attachmentsContainer, .blog-news .item .attachmentsContainer {
+	clear: none;
+}
+
 .blog-news .items-leading p, .items-row p {
 	margin: 1em 0 1em 0;
 }
