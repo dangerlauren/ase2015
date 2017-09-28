@@ -1754,6 +1754,19 @@ display: none;
 	margin-top: -1em;
 }
 
+.blog.meetstudents .category-desc.clearfix {
+	display: none;
+}
+
+.blog.meetstudents .items-row .item h3 {
+	display: none;
+}
+
+.blog.meetstudents .items-row .item h3 + p {
+	margin-top: -1em;
+	font-style: italic;
+}
+
 .blogalumprofiles .item > p {
 	font-style: italic;
 	max-width: 180px;
