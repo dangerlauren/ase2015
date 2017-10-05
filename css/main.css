@@ -2032,6 +2032,15 @@ display: none;
 
 /** News **/
 
+.addtoany_container {
+	margin-bottom: 3em;
+}
+
+.addtoany_list.a2a_kit_size_32 a > span {
+	border-radius: 0;
+	/*background-color: #333 !important;*/
+}
+
 .redirect-ltr h2 {
 	display: none;
 }
