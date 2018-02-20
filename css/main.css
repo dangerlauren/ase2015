@@ -1901,6 +1901,10 @@ display: none;
 	margin-bottom: 2em;
 }
 
+.facentry.pending {
+	display: none;
+}
+
 .facentry {
 	border-top: 1px solid #808285;
 	padding: 1.5em 0;
